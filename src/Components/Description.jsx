@@ -42,7 +42,7 @@ function Description() {
         fontWeight={{ sm: 500, lg: 600 }}
         textAlign="center"
         fontSize={{ sm: "15px", lg: "16px" }}
-        p={{ sm: 1, lg: 0 }}
+        p={{ sm: 0, lg: 0 }}
       >
         Let’s help you save time, cost and stress on your next project.
       </Text>

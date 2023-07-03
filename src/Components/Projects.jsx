@@ -105,7 +105,7 @@ function Projects() {
     { id: 20, img: Btwenty },
   ];
   const handleClick = () => {
-    const phoneNumber = "08034316193";
+    const phoneNumber = "+2348034316193";
     const message = "Hello, I'd like to get in touch.";
 
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
