@@ -22,7 +22,7 @@ export const Custom = ({ img, title, subtitle, service }) => {
           </Heading>
           <Text
             w={{ sm: "100%", lg: "85%" }}
-            fontSize={"13px"}
+            fontSize={"14px"}
             color={service ? "black" : "white"}
             mt={1}
           >

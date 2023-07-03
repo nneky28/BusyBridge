@@ -57,8 +57,8 @@ function Services() {
           spacing={6}
           justifyContent="center"
           alignItems="center"
-          w={"88%"}
-          ms={"4%"}
+          w={"86%"}
+          ms={{ sm: 0, lg: "3%" }}
           mb={12}
         >
           {customData.map((data, index) => (

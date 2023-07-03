@@ -32,14 +32,16 @@ function Navbar() {
       bg="black"
       boxShadow="lg"
       overflow={"hidden"}
-      h={"13%"}
+      h={{ sm: "10%", lg: "13%" }}
     >
       <Box bg="black" mt={3}>
         <Image
-          p={isScrolled ? 2 : 0}
+          w={"90%"}
+          h={"80%"}
+          p={isScrolled ? 1 : 0}
           src={logo}
           objectFit={"contain"}
-          style={{ width: "110px", height: "55px" }}
+          // style={{ width: "110px", height: "55px" }}
         />
       </Box>
       <Box mt={8} mr={7} display={{ sm: "none", lg: "flex" }}>

@@ -124,7 +124,7 @@ function Projects() {
 
       <Box mt={8}>
         <Flex>
-          <Marquee autoFill={true} speed={17}>
+          <Marquee autoFill={true} speed={44}>
             {images.map((item, index) => (
               <Box key={index}>
                 <Image src={item.img} boxSize={"200px"} objectFit={"contain"} />
@@ -133,7 +133,7 @@ function Projects() {
           </Marquee>
         </Flex>
         <Flex mt={1}>
-          <Marquee autoFill={true} direction="right" speed={17}>
+          <Marquee autoFill={true} direction="right" speed={40}>
             {images1.map((item, index) => (
               <Box key={index}>
                 <Image src={item.img} boxSize={"200px"} objectFit={"contain"} />
@@ -184,7 +184,7 @@ function Projects() {
         >
           Get in Touch
           <Box ml={1}>
-            <Image src={chatGreen} boxSize={"13px"} />
+            <Image src={chatGreen} boxSize={"14px"} />
           </Box>
         </Text>
       </Center>
@@ -240,7 +240,7 @@ function Projects() {
             >
               Contact Us
               <Box ml={1}>
-                <Image src={chatBlack} boxSize={"13px"} />
+                <Image src={chatBlack} boxSize={"14px"} />
               </Box>
             </Text>
           </Box>

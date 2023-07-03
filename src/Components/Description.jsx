@@ -9,21 +9,41 @@ function Description() {
   return (
     <Box bg="#EEEEEE" p={5}>
       <Center>
-        <Heading mt={6} size="lg">
+        <Heading
+          mt={6}
+          fontSize={{ sm: "32px", lg: "36px" }}
+          textAlign={"center"}
+          lineHeight={"35px"}
+        >
           Welcome to BusyBridge
         </Heading>
       </Center>
 
       <Center mt={3}>
-        <Text fontWeight={600}>The Branding Company for SMEs!</Text>
+        <Text
+          fontWeight={{ sm: 500, lg: 600 }}
+          fontSize={{ sm: "15px", lg: "16px" }}
+        >
+          The Branding Company for SMEs!
+        </Text>
       </Center>
 
-      <Text fontWeight={600} textAlign="center" py={3}>
+      <Text
+        fontWeight={{ sm: 500, lg: 600 }}
+        fontSize={{ sm: "15px", lg: "16px" }}
+        textAlign="center"
+        py={3}
+      >
         We provide printing services to individuals and organisations across
         Nigeria.
       </Text>
 
-      <Text fontWeight={600} textAlign="center" p={{ sm: 3, lg: 0 }}>
+      <Text
+        fontWeight={{ sm: 500, lg: 600 }}
+        textAlign="center"
+        fontSize={{ sm: "15px", lg: "16px" }}
+        p={{ sm: 1, lg: 0 }}
+      >
         Let’s help you save time, cost and stress on your next project.
       </Text>
 

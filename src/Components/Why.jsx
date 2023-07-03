@@ -84,10 +84,10 @@ function Why() {
         <Center mt={5} position="relative">
           <SimpleGrid
             columns={[1, null, 3]}
-            spacing={{ sm: 2, lg: 6 }}
+            spacing={{ sm: 4, lg: 7 }}
             justifyContent="center"
             alignItems="center"
-            w={"84%"}
+            // w={"84%"}
           >
             <Image src={flierFiesta} objectFit="contain" boxSize={"335px"} />
             <Image src={express} objectFit="contain" boxSize={"335px"} />
