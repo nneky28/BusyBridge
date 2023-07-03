@@ -124,7 +124,7 @@ function Projects() {
 
       <Box mt={8}>
         <Flex>
-          <Marquee autoFill={true}>
+          <Marquee autoFill={true} speed={17}>
             {images.map((item, index) => (
               <Box key={index}>
                 <Image src={item.img} boxSize={"200px"} objectFit={"contain"} />
@@ -133,7 +133,7 @@ function Projects() {
           </Marquee>
         </Flex>
         <Flex mt={1}>
-          <Marquee autoFill={true} direction="right" speed={16.5}>
+          <Marquee autoFill={true} direction="right" speed={17}>
             {images1.map((item, index) => (
               <Box key={index}>
                 <Image src={item.img} boxSize={"200px"} objectFit={"contain"} />
@@ -195,7 +195,7 @@ function Projects() {
         backgroundRepeat="no-repeat"
         backgroundSize={"cover"}
         width={"100%"}
-        h={{ sm: "110vh", lg: "80vh", xl: "60vh", md: "90vh" }}
+        h={{ sm: "60%", lg: "80vh", xl: "60vh", md: "90vh" }}
         overflow={"hidden"}
         mt={10}
       >

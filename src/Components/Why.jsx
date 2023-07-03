@@ -84,7 +84,7 @@ function Why() {
         <Center mt={5} position="relative">
           <SimpleGrid
             columns={[1, null, 3]}
-            spacing={{ sm: 0, lg: 6 }}
+            spacing={{ sm: 2, lg: 6 }}
             justifyContent="center"
             alignItems="center"
             w={"84%"}
