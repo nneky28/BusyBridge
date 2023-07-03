@@ -35,8 +35,8 @@ const seventeen = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688390261
 const eighteen = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688390257/BusyBridge/A18_itymsa.jpg"
 const nineteen = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688390263/BusyBridge/A19_rifra8.jpg"
 const twenty = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688390260/BusyBridge/A20_bdn4pb.jpg"
-
-
+const chatBlack = "https://res.cloudinary.com/dab0tyudx/image/upload/v1687463864/BusyBridge/chat_icon_fbwpge.png"
+const chatGreen = "https://res.cloudinary.com/dab0tyudx/image/upload/v1687463822/BusyBridge/chat_icon_2_qojhcu.png"
 
 const Bone = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688393047/BusyBridge/B1_ivp89c.jpg"
 const Btwo = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688393045/BusyBridge/B2_usi5po.jpg"
@@ -80,6 +80,8 @@ export {
     flierFiesta,
     express,
     starter,
+    chatBlack,
+    chatGreen,
     one, two, three, four, five, six, seven, eight, nine, ten,
     eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty,
 

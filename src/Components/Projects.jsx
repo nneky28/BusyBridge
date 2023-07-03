@@ -3,7 +3,6 @@ import {
   Center,
   Heading,
   Image,
-  SimpleGrid,
   Text,
   Flex,
   Spacer,
@@ -53,8 +52,10 @@ import {
   Beighteen,
   Bnineteen,
   Btwenty,
+  chatGreen,
+  chatBlack,
 } from "../assets/images";
-import { BsChatTextFill } from "react-icons/Bs";
+
 import Marquee from "react-fast-marquee";
 
 function Projects() {
@@ -183,7 +184,7 @@ function Projects() {
         >
           Get in Touch
           <Box ml={1}>
-            <BsChatTextFill size={14} color="#2eba00" />
+            <Image src={chatGreen} boxSize={"13px"} />
           </Box>
         </Text>
       </Center>
@@ -239,7 +240,7 @@ function Projects() {
             >
               Contact Us
               <Box ml={1}>
-                <BsChatTextFill size={14} />
+                <Image src={chatBlack} boxSize={"13px"} />
               </Box>
             </Text>
           </Box>

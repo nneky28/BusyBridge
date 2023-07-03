@@ -2,12 +2,12 @@ import {
   Box,
   Center,
   Flex,
-  Image,
   Spacer,
   Text,
   useBreakpointValue,
+  Image,
 } from "@chakra-ui/react";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { chatGreen } from "../assets/images";
 
 export default function Footer() {
   const today = new Date();
@@ -33,14 +33,13 @@ export default function Footer() {
         <Spacer />
 
         <Flex
-          gap={[5, 5, 8, 8, 8]}
+          gap={[5, 5, 5, 5, 5]}
           color="#A8A8A8"
           order={[1, 1, 2]}
           alignSelf={"center"}
         >
-          <FaFacebookF />
-          <FaTwitter />
-          <FaInstagram />
+          <Image src={chatGreen} boxSize={"13px"} />
+          <Image src={chatGreen} boxSize={"13px"} />
         </Flex>
       </Flex>
     </Box>
