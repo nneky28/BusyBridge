@@ -60,9 +60,6 @@ const Bnineteen = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688393072
 const Btwenty = "https://res.cloudinary.com/dab0tyudx/image/upload/v1688393079/BusyBridge/B20_nd1qlz.jpg"
 
 
-
-
-
 export {
     logo,
     hero,

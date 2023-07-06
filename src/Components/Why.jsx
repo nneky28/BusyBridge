@@ -119,14 +119,33 @@ function Why() {
               <Heading fontSize="14px" color={"#2eba00"}>
                 Follow us on Social
               </Heading>
+
               <Text fontSize="12px" color={"#ffff"}>
-                IG: @busybridgeng
+                <a
+                  href="https://www.instagram.com/busybridgeng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  IG: @busybridgeng
+                </a>
               </Text>
               <Text fontSize="12px" color={"#ffff"}>
-                FB: @busybridgeng
+                <a
+                  href="https://www.facebook.com/busybridgeng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  FB: @busybridgeng
+                </a>
               </Text>
               <Text fontSize="12px" color={"#ffff"}>
-                TW: @busybridgeng
+                <a
+                  href="https://www.twitter.com/busybridgeng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  TW: @busybridgeng
+                </a>
               </Text>
             </Box>
             <Spacer />
@@ -144,7 +163,6 @@ function Why() {
                 22 Shipeolu Street, Onipan, Lagos.
               </Text>
             </Box>
-            {/* </SimpleGrid> */}
           </Flex>
         </Box>
       </Box>
