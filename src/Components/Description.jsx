@@ -20,17 +20,14 @@ function Description() {
       </Center>
 
       <Center mt={3}>
-        <Text
-          fontWeight={{ sm: 500, lg: 600 }}
-          fontSize={{ sm: "18px", lg: "16px" }}
-        >
+        <Text fontWeight={600} fontSize={{ sm: "15px", lg: "16px" }}>
           The Branding Company for SMEs!
         </Text>
       </Center>
 
       <Text
-        fontWeight={{ sm: 500, lg: 600 }}
-        fontSize={{ sm: "18px", lg: "16px" }}
+        fontWeight={600}
+        fontSize={{ sm: "15px", lg: "16px" }}
         textAlign="center"
         py={3}
       >
@@ -39,9 +36,9 @@ function Description() {
       </Text>
 
       <Text
-        fontWeight={{ sm: 500, lg: 600 }}
+        fontWeight={600}
         textAlign="center"
-        fontSize={{ sm: "18px", lg: "16px" }}
+        fontSize={{ sm: "15px", lg: "16px" }}
         p={{ sm: 0, lg: 0 }}
       >
         Let’s help you save time, cost and stress on your next project.

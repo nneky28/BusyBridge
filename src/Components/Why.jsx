@@ -84,21 +84,21 @@ function Why() {
         <Center mt={5} position="relative">
           <SimpleGrid
             columns={[1, null, 3]}
-            spacing={{ sm: 4, lg: 7 }}
+            spacing={{ sm: 4, lg: 7, "2xl": 4, xl: 4 }}
             justifyContent="center"
             alignItems="center"
-            // w={"84%"}
+            w={"85%"}
           >
-            <Image src={flierFiesta} objectFit="contain" boxSize={"335px"} />
-            <Image src={express} objectFit="contain" boxSize={"335px"} />
-            <Image src={starter} objectFit="contain" boxSize={"335px"} />
+            <Image src={flierFiesta} objectFit="contain" />
+            <Image src={express} objectFit="contain" />
+            <Image src={starter} objectFit="contain" />
           </SimpleGrid>
         </Center>
         <Center mt={"40px"}>
           <Box style={lineStyle} />
         </Center>
         <Box>
-          <Flex p={"2%"} ms={"6%"} w={"88%"} mt={2} direction={direction}>
+          <Flex p={"2%"} ms={"5.5%"} w={"88%"} mt={2} direction={direction}>
             <Box mb={{ sm: 5, lg: 0 }}>
               <Heading fontSize="14px" color={"#2eba00"}>
                 Our Services
